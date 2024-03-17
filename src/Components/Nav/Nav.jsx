@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 import cart_icon from '../assets/cart_icon.png'
 import { useState } from 'react'
 const Nav = () => {
-    const [menu, setMenu] = useState("Shop");
+    const [menu, setMenu] = useState("");
   return (
     <div className="nav">
 <div className="nav-logo">
