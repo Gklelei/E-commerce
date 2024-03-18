@@ -1,4 +1,6 @@
 import Hero from "../Components/Hero/Hero"
+import Newcollections from "../Components/NewCollections/Newcollections"
+import Newsletter from "../Components/Newsletter/Newsletter"
 import Offers from "../Components/Offers/Offers"
 import Popular from "../Components/Popular/Popular"
 
@@ -8,6 +10,8 @@ const Shop = () => {
             <Hero />
             <Popular />
             <Offers />
+            <Newcollections />
+            <Newsletter />
         </>
     )
 }
