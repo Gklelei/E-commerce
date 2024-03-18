@@ -13,7 +13,7 @@ const ProductDisplay = (props) => {
                     <img src={product.image} alt="product-image" />
                     <img src={product.image} alt="product-image" />
                 </div>
-                <div className="produc-display-image">
+                <div className="product-display-image">
                     <img className='product-display-main-img' src={product.image} alt="product-image" />
                 </div>
             </div>
@@ -28,11 +28,11 @@ const ProductDisplay = (props) => {
                     <p>(150)</p>
                 </div>
                 <div className="product-display-right-prices">
-                    <div className="product-display-right-price old">${product.old_price}</div>
-                    <div className="product-display-right-price new">${product.new_price}</div>
+                    <div className="product-display-right-price-old">${product.old_price}</div>
+                    <div className="product-display-right-price-new">${product.new_price}</div>
                 </div>
                 <div className="product-display-right-description">
-                    pDiscover the essence of style and functionality with our exclusive collection of products. From timeless classics to modern innovations, each item is crafted with precision and attention to detail, embodying quality and sophistication. Elevate your lifestyle, express your unique personality, and make every moment unforgettable with our curated selection of must-have essentials. Explore endless possibilities and redefine your everyday experience with our diverse range of products. Shop now and embrace the extraordinary
+                    A lightweight, usually knitted, pullover shirt, close fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment
                 </div>
                 <div className="product-display-right-size">
                     <h1>Select size</h1>
