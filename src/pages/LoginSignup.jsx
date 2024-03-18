@@ -1,8 +1,9 @@
-
-
+import './CSS/LoginSignup.css'
 const LoginSignup = () => {
     return (
-        <div>LoginSignup</div>
+        <div className="LoginSignup">
+            Login/signup page
+        </div>
     )
 }
 

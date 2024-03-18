@@ -15,10 +15,10 @@ const Item = (props) => {
 };
 
 Item.propTypes = {
-    image: PropTypes.object.isRequired,
-    name: PropTypes.string.isRequired,
-    new_price: PropTypes.string.isRequired,
-    old_price: PropTypes.string.isRequired,
+    image: PropTypes.object,
+    name: PropTypes.string,
+    new_price: PropTypes.string,
+    old_price: PropTypes.string,
 };
 
 export default Item;

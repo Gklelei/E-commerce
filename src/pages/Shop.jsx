@@ -1,4 +1,4 @@
-import Footer from "../Components/Footer/Footer"
+
 import Hero from "../Components/Hero/Hero"
 import Newcollections from "../Components/NewCollections/Newcollections"
 import Newsletter from "../Components/Newsletter/Newsletter"
@@ -13,7 +13,6 @@ const Shop = () => {
             <Offers />
             <Newcollections />
             <Newsletter />
-            <Footer />
         </>
     )
 }
