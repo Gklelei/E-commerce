@@ -51,6 +51,7 @@
 .LoginSignup-login span {
   color: #ff4141;
   font-weight: 600;
+  cursor: pointer;
 }
 .LoginSignup-agree {
   display: flex;
@@ -60,4 +61,7 @@
   color: #5c5c5c;
   font-size: 18px;
   font-weight: 500;
+}
+.checkbox {
+  cursor: pointer;
 }

@@ -1,16 +1,11 @@
-
+import './CSS/Errorpage.css'
 const Error404page = () => {
-    const styles = {
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        fontSize: '50px',
-        fontWeigth: '800',
-    }
     return (
-        <div className="errorMessage" style={styles}>
-            Error 404 page not found
+        <div className="errorMessage">
+            <div className="message">
+                <h1>   Error 404 page not found</h1>
+            </div>
+
         </div>
     )
 }
